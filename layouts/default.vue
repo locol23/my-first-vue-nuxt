@@ -18,7 +18,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: border-box;
-  margin: 0;
+  margin: 5;
 }
 
 .button--green {

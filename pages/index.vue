@@ -1,33 +1,17 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h1 class="title">
-        my-first-vue-nuxt
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+      <top/>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import Top from '~/components/Top.vue'
 
 export default {
   components: {
-    AppLogo
+    Top
   }
 }
 </script>
@@ -39,6 +23,10 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.input {
+  margin: 5;
 }
 
 .title {
